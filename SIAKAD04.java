@@ -7,7 +7,7 @@ public class SIAKAD04 {
         String nama, nim;
         String kelas;
         byte absen;
-        double nilaiKuis, nilaiTugas, nilaiUTS, nilaiUAS, nilaiAkhir;
+        double nilaiKuis, nilaiTugas, nilaiujian, nilaiAkhir;
         String nilaiHuruf = "";
         String kualifikasi = "";
 
@@ -26,13 +26,10 @@ public class SIAKAD04 {
         System.out.print("Masukkan nilai tugas : ");
         nilaiTugas = sc.nextDouble();
 
-        System.out.print("Masukkan nilai UTS : ");
-        nilaiUTS = sc.nextDouble();
+        System.out.print("Masukkan nilai ujian : ");
+        nilaiujian = sc.nextDouble();
 
-        System.out.print("Masukkan nilai UAS : ");
-        nilaiUAS = sc.nextDouble();
-
-        nilaiAkhir = (nilaiKuis * 0.20 + nilaiTugas * 0.15 + nilaiUTS * 0.30 + nilaiUAS * 0.35);
+        nilaiAkhir = (nilaiKuis * 0.20 + nilaiTugas * 0.30 + nilaiujian * 0.50);
 
         if (nilaiAkhir > 80 && nilaiAkhir <= 100) {
             nilaiHuruf = "A";
