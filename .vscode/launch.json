@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "biodata04",
+            "request": "launch",
+            "mainClass": "biodata04",
+            "projectName": "jobsheet5_5407fdf7"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Kafe04",
+            "request": "launch",
+            "mainClass": "Kafe04",
+            "projectName": "jobsheet5_5407fdf7"
+        },
+        {
+            "type": "java",
+            "name": "Latihan4",
+            "request": "launch",
+            "mainClass": "Latihan4",
+            "projectName": "jobsheet5_5407fdf7"
+        },
+        {
+            "type": "java",
+            "name": "PemilihanBilangan04",
+            "request": "launch",
+            "mainClass": "PemilihanBilangan04",
+            "projectName": "jobsheet5_5407fdf7"
+        },
+        {
+            "type": "java",
+            "name": "PemilihanHari04",
+            "request": "launch",
+            "mainClass": "PemilihanHari04",
+            "projectName": "jobsheet5_5407fdf7"
+        },
+        {
+            "type": "java",
+            "name": "PemilihanHariDenganIf04",
+            "request": "launch",
+            "mainClass": "PemilihanHariDenganIf04",
+            "projectName": "jobsheet5_5407fdf7"
+        },
+        {
+            "type": "java",
+            "name": "PemillihanBilangan04",
+            "request": "launch",
+            "mainClass": "PemillihanBilangan04",
+            "projectName": "jobsheet5_5407fdf7"
+        },
+        {
+            "type": "java",
+            "name": "SIAKAD04",
+            "request": "launch",
+            "mainClass": "SIAKAD04",
+            "projectName": "jobsheet5_5407fdf7"
+        }
+    ]
+}
